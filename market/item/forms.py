@@ -29,7 +29,7 @@ class NewItemForm(forms.ModelForm):
                     'class': INPUT_CLASSES
                 }
             ),
-            'price': forms.FileInput(
+            'image': forms.FileInput(
                 attrs={
                     'class': INPUT_CLASSES
                 }
